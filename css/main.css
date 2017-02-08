@@ -5,4 +5,28 @@
 
 .animated {
   font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+.topnav {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+}
+
+.topnav > li {
+  display: inline-block;
+}
+
+.topnav > li > a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  border: 1px solid tomato;
+  margin-left: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.topnav > li > a,p:last-child {
+  margin-right: 5px;
 }
