@@ -3,12 +3,16 @@
   padding: 0;
 }
 
-.toplogo {
+.containerlogo {
   border: 1px solid tomato;
 }
 
-.toplogo .animated {
+.headerlogo {
+  height: 50px;
+  align-items: center;
   text-align: center;
+  padding-top: 10px;
+  flex: auto;
 }
 
 .animated {
@@ -16,7 +20,10 @@
 }
 
 .topnav {
-  display: inline-flex;
-  float: right;
-  margin: 5px;
+  display: inline-flex;;
+  border: 1px solid black;
+}
+
+.topnavbutton {
+  border: 1px solid black;
 }
