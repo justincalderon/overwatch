@@ -3,33 +3,20 @@
   padding: 0;
 }
 
+.toplogo {
+  border: 1px solid tomato;
+}
+
+.toplogo .animated {
+  text-align: center;
+}
+
 .animated {
   font-family: 'Montserrat', sans-serif;
-  display: inline-block;
-  margin: 10px;
 }
 
 .topnav {
-  font-family: 'Montserrat', sans-serif;
+  display: inline-flex;
   float: right;
-  margin: 10px;
-}
-
-.topnav > li {
-  display: inline-block;
-}
-
-.topnav > li > a {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  border: 1px solid tomato;
-  margin-left: 10px;
-  padding: 5px;
-  text-align: center;
-  background-color: tomato;
-}
-
-.topnav > li > a,p:last-child {
-  margin-right: 5px;
+  margin: 5px;
 }
